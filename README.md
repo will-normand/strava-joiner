@@ -1,32 +1,23 @@
 # strava-joiner
 
+Tool to join TCX files before uploading to Strava. For when you accidentally end an activity when you just meant to
+pause your watch.
+
 ## Installation
 
 Download from https://github.com/will-normand/strava-joiner
 
 ## Usage
 
-Run the project directly, via `:exec-fn`:
+- Supports TCX files only.
+- The first file must be the earlier part of the activity, the second later.
+- The output is written to `resources/resources.tcx`. This should be suitable for upload to Strava.
 
-    $ clojure -X:run-x
-    Hello, Clojure!
+Run the project directly:
 
-Run the project, overriding the name to be greeted:
+    $ clojure -M:run-m first-file second-file
 
-    $ clojure -X:run-x :name '"Someone"'
-    Hello, Someone!
-
-Run the project directly, via `:main-opts` (`-m will-normand.strava-joiner`):
-
-    $ clojure -M:run-m
-    Hello, World!
-
-Run the project, overriding the name to be greeted:
-
-    $ clojure -M:run-m Via-Main
-    Hello, Via-Main!
-
-Run the project's tests (they'll fail until you edit them):
+Run the project's tests:
 
     $ clojure -M:test:runner
 
@@ -36,11 +27,10 @@ Build an uberjar:
 
 Run that uberjar:
 
-    $ java -jar strava-joiner.jar
-
-## Options
-
+    $ java -jar strava-joiner.jar first-file second-file
 
 ## Examples
 
-...
+    $ clojure -M:run-m resources/activity1.tcx resources/activity2.tcx
+
+    $ java -jar strava-joiner.jar resources/activity1.tcx resources/activity2.tcx

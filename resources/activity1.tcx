@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+  xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd"
+  xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+  xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+  xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1">
+  <Activities>
+    <Activity Sport="Running">
+      <Id>2021-02-14T11:24:10.000Z</Id>
+      <Lap StartTime="2021-02-14T11:24:10.000Z">
+        <TotalTimeSeconds>2539.153</TotalTimeSeconds>
+        <DistanceMeters>5270.61</DistanceMeters>
+        <MaximumSpeed>3.1070001125335693</MaximumSpeed>
+        <Calories>522</Calories>
+        <AverageHeartRateBpm>
+          <Value>146</Value>
+        </AverageHeartRateBpm>
+        <MaximumHeartRateBpm>
+          <Value>177</Value>
+        </MaximumHeartRateBpm>
+        <Intensity>Active</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+              <LatitudeDegrees>55.0</LatitudeDegrees>
+                <ns3:Speed>2.4</ns3:Speed>
+          <Trackpoint>
+            <Time>2021-02-14T12:10:45.000Z</Time>
+            <Position>
+              <LatitudeDegrees>55.2342461245</LatitudeDegrees>
+              <LongitudeDegrees>-3.6434235345</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>234.0</AltitudeMeters>
+            <DistanceMeters>5266.2998046875</DistanceMeters>
+            <HeartRateBpm>
+              <Value>152</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <ns3:TPX>
+                <ns3:Speed>1.9869999885559082</ns3:Speed>
+                <ns3:RunCadence>79</ns3:RunCadence>
+              </ns3:TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2021-02-14T12:10:47.000Z</Time>
+            <Position>
+              <LatitudeDegrees>55.3453452452</LatitudeDegrees>
+              <LongitudeDegrees>-3.645635635</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>334.04535345</AltitudeMeters>
+            <DistanceMeters>5270.60986328125</DistanceMeters>
+            <HeartRateBpm>
+              <Value>150</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <ns3:TPX>
+                <ns3:Speed>2.00600004196167</ns3:Speed>
+                <ns3:RunCadence>79</ns3:RunCadence>
+              </ns3:TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <ns3:LX>
+            <ns3:AvgSpeed>2.0759999752044678</ns3:AvgSpeed>
+            <ns3:AvgRunCadence>72</ns3:AvgRunCadence>
+            <ns3:MaxRunCadence>111</ns3:MaxRunCadence>
+          </ns3:LX>
+        </Extensions>
+      </Lap>
+      <Creator xsi:type="Device_t">
+        <Name>fēnix 5</Name>
+        <UnitId>23423432</UnitId>
+        <ProductID>2697</ProductID>
+        <Version>
+          <VersionMajor>21</VersionMajor>
+          <VersionMinor>0</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+  <Author xsi:type="Application_t">
+    <Name>Connect Api</Name>
+    <Build>
+      <Version>
+        <VersionMajor>0</VersionMajor>
+        <VersionMinor>0</VersionMinor>
+        <BuildMajor>0</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-D4452-00</PartNumber>
+  </Author>
+</TrainingCenterDatabase>
