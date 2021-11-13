@@ -11,7 +11,7 @@ Download from https://github.com/will-normand/strava-joiner
 
 - Supports TCX files only.
 - The first file must be the earlier part of the activity, the second later.
-- The output is written to `resources/resources.tcx`. This should be suitable for upload to Strava.
+- The output is written to `resources/output.tcx`. This should be suitable for upload to Strava.
 
 Run the project directly:
 
@@ -19,7 +19,7 @@ Run the project directly:
 
 Run the project's tests:
 
-    $ clojure -M:test:runner
+    $ clojure -M:test
 
 Build an uberjar:
 
