@@ -12,5 +12,5 @@
          :uberjar {:replace-deps {seancorfield/depstar {:mvn/version "2.0.171"}}
                    :exec-fn      hf.depstar/uberjar
                    :exec-args    {:aot        true
-                                  :jar        "strava-joiner.jar"
+                                  :jar        "build/strava-joiner.jar"
                                   :main-class "will-normand.strava-joiner"}}}}
