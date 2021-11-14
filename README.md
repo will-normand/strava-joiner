@@ -1,5 +1,7 @@
 # strava-joiner
 
+[![Clojure CI](https://github.com/will-normand/strava-joiner/actions/workflows/clojure.yml/badge.svg)](https://github.com/will-normand/strava-joiner/actions/workflows/clojure.yml)
+
 Tool to join TCX files before uploading to Strava. For when you accidentally end an activity when you just meant to
 pause your watch.
 
